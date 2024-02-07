@@ -13,6 +13,7 @@
     <!-- Details Container -->
     <div class="details-container">
 
+//Array for all the 3 types of data
         <% 
             String[] userData = (String[]) request.getAttribute("userData");
             String[] placeData = (String[]) request.getAttribute("placeData");
