@@ -1,0 +1,57 @@
+/* Add the following style to ensure the body has no margin or padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Modify the main-container and main styles */
+.main-container {
+    margin: 20px 10%;
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 20px); 
+    box-sizing: border-box; /* Add this to include padding and border in width calculation */
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Change to space-around to center the columns */
+    max-width: 800px;
+    box-sizing: border-box; /* Add this to include padding and border in width calculation */
+}
+
+/* Adjust the column width for smaller screens */
+.column {
+    flex: 1;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    box-sizing: border-box;   /* Add this to include padding and border in width calculation */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+    .header-container {
+        padding: 0 5%;
+    }
+
+    .main-container {
+        margin: 20px 5% 
+    }
+
+    .column {
+        width: 100%;
+        margin-right: 0;
+    }
+}

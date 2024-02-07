@@ -1,0 +1,41 @@
+/* footer.css */
+
+/* Style the footer */
+footer {
+    margin-top: auto;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the content above the footer */
+main {
+    flex: 1; /* Allow the content to grow and take the remaining space */
+}
+
+/* Style the contact section */
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ccc; /* Light gray text color for contact information */
+}
+
+.contact-section h2 {
+    color: #ffd700; /* Yellow color for the heading */
+}
+
+.contact-section p {
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+
