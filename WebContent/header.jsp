@@ -9,6 +9,8 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="/js/sessionHandler.js"></script>
     <title>TRAVISTA - Explore and Book</title>
+    
+    
 </head>
 
 <body>
